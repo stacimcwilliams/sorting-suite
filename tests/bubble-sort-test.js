@@ -13,6 +13,10 @@ describe ('bubbleSort',() => {
     expect(Array.isArray(bubbleSort([]))).to.be.true
   });
 })
+it('should return an array that has been sorted', () => {
+  let sortedArray = bubbleSort(['f', 'a', 'c', 'b'])
+  expect(sortedArray).to.deep.equal(['a','b','c','f'])
+});
 })
 
 
