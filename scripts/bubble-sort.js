@@ -8,8 +8,6 @@
 
 const bubbleSort = (bubbleArray) => {
 
-  // var sorted = true;
-
   do {
     var sorted = true;
     bubbleArray.forEach(function(value,index,totalArray) {
