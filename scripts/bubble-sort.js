@@ -1,11 +1,3 @@
-// forEach loop that has a conditional if met swaps the items in the array
-// need the value and the index of the array
-//return the sorted array
-//variable named previous pointing to the first element (index 0)
-//variable named current pointing to the second value (index 1)
-//if current is less than previous the two values are swapped
-//then the algo would advance one spot to the right
-
 const bubbleSort = (bubbleArray) => {
 
   do {

@@ -1,6 +1,5 @@
 // insertionSort(["d", "b", "a", "c"])
 // => ["a", "b", "c", "d"]
-
 import { expect } from 'chai';
 import insertionSort from '../scripts/insertion-sort'
 
@@ -8,8 +7,9 @@ describe ('insertionSort',() => {
   describe('array', () => {
  it('should return an array', () => {
     expect(Array.isArray(insertionSort([]))).to.be.true
-  });
-})
+ });
+
+  })
 it('should return an array that has been sorted alphabetically', () => {
   let sortedArray = insertionSort(['d', 'b', 'a', 'c'])
   expect(sortedArray).to.deep.equal(['a','b','c','d'])
